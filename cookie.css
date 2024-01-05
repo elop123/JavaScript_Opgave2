@@ -1,0 +1,52 @@
+#Cookie_container {
+    border: 2px solid black;
+    overflow:none; 
+}
+  h2{
+    text-align: center;
+  }
+  p{
+    margin: 1rem;
+  }
+  .Cookie_button_ok {
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #eee;
+    background-color: lightskyblue;
+    font-weight: bold;
+    transition: 400ms;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  .Cookie_button_ok :hover{
+    background-color: #182c39;
+  }
+  .Cookie_button_no {
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #eee;
+    background-color: darkblue;
+    font-weight: bold;
+    transition: 400ms;
+    cursor: pointer;
+  }
+
+  .Cookie_button_no:hover {
+    background-color: #030339;
+  }
+    
+  .modal section{
+    margin-left: 1rem;
+  }
+  .modal span{
+   transform: translate(50% );
+   display: inline-block;
+
+  }
+  
